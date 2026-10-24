@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторная работа №6</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1>Основы JavaScript</h1>
+        <p>Лабораторная работа №6</p>
+    </header>
+
+    <section>
+        <h2>1. Возведение в степень</h2>
+        <label>x: <input id="x" type="number" value="2"></label>
+        <label>n: <input id="n" type="number" min="1" step="1" value="5"></label>
+        <button onclick="rp()">Вычислить</button>
+        <p id="p1">Результат появится здесь.</p>
+    </section>
+
+    <section>
+        <h2>2. НОД</h2>
+        <label>a: <input id="a" type="number" min="0" step="1" value="48"></label>
+        <label>b: <input id="b" type="number" min="0" step="1" value="18"></label>
+        <button onclick="rg()">Вычислить</button>
+        <p id="p2">Результат появится здесь.</p>
+    </section>
+
+    <section>
+        <h2>3. Наименьшая цифра</h2>
+        <label>x: <input id="d" type="number" min="0" step="1" value="583204"></label>
+        <button onclick="rd()">Найти</button>
+        <p id="p3">Результат появится здесь.</p>
+    </section>
+
+    <section>
+        <h2>4. Форма слова «запись»</h2>
+        <label>Количество: <input id="c" type="number" min="0" step="1" value="21"></label>
+        <button onclick="rr()">Показать</button>
+        <p id="p4">Результат появится здесь.</p>
+    </section>
+
+    <section>
+        <h2>5. Числа Фибоначчи</h2>
+        <label>n (от 0 до 1000): <input id="f" type="number" min="0" max="1000" step="1" value="10"></label>
+        <button onclick="rf()">Вычислить</button>
+        <p id="p5">Результат появится здесь.</p>
+    </section>
+
+    <script src="script.js"></script>
+
+    <footer class="site-footer">
+        <p>Лабораторная работа № 6 · Основы веб-разработки</p>
+    </footer>
+
+</body>
+</html>
